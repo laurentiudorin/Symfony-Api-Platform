@@ -35,6 +35,8 @@ class CheeseListing
     private $price;
 
     /**
+     * The price of this delicious cheese, in cents.
+     *
      * @ORM\Column(type="datetime")
      */
     private $createdAt;
