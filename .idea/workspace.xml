@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36770f79-e5ff-4fbc-a425-2465bb3d2a3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Symfony-Api-Platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Symfony-Api-Platform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/CheeseListing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/CheeseListing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +98,8 @@
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kXplHd0DGWEx5p4V100tWgbWkE" />
@@ -118,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605856939355</updated>
       <workItem from="1605856940538" duration="14239000" />
+      <workItem from="1606208310847" duration="69000" />
     </task>
     <servers />
   </component>
