@@ -134,6 +134,7 @@
       <workItem from="1606395200477" duration="84000" />
       <workItem from="1606395296794" duration="1116000" />
       <workItem from="1606461101033" duration="4843000" />
+      <workItem from="1606902000111" duration="1303000" />
     </task>
     <servers />
   </component>
@@ -145,14 +146,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="197" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606118701706" />
-    <state x="747" y="222" key="RollbackChangesDialog" timestamp="1606134267744">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606480372751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="747" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606134267744" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1606123644579">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606480372751" />
+    <state x="747" y="222" key="RollbackChangesDialog" timestamp="1606480379345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606123644579" />
+    <state x="747" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606480379345" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1606480436700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606480436700" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606118614303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
