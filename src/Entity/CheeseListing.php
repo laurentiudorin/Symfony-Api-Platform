@@ -26,7 +26,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  *     denormalizationContext={"groups"={"cheese_listing:write"}, "swagger_definition_name"="Write"},
  *     shortName="chesses",
  *     attributes={
- *			"pagination_items_per_page"=5,
+ *            "pagination_items_per_page"=5,
  *          "formats"={"jsonld", "json", "html", "jsonhal", "csv"={"text/csv"}}
  *     }
  * )
@@ -82,6 +82,13 @@ class CheeseListing
 	 * @ORM\Column(type="boolean")
 	 */
 	private $isPublished = false;
+
+	/**
+	 * @ORM\ManyToOne(targetEntity=User::class, inversedBy="cheeseListings")
+	 * @ORM\JoinColumn(nullable=false)
+	 * @Groups({"cheese_listing:read", "cheese_listing:write"})
+	 */
+	private $owner;
 
 	public function __construct(string $title = null)
 	{
@@ -171,6 +178,18 @@ class CheeseListing
 	public function setIsPublished(bool $isPublished): self
 	{
 		$this->isPublished = $isPublished;
+
+		return $this;
+	}
+
+	public function getOwner(): ?User
+	{
+		return $this->owner;
+	}
+
+	public function setOwner(?User $owner): self
+	{
+		$this->owner = $owner;
 
 		return $this;
 	}
